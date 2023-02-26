@@ -1,1 +1,42 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--color-black);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 320px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+img{
+    display: block;
+}
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 768px;
+        padding: 0px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0px 16px;
+    }
+}
