@@ -1,63 +1,45 @@
-<header class="header-section">
-  <div class="container header-wrapper">
-    <a class="logo-link link" href="index.html">
-      <svg class="logo-icon" width="66" height="52">
-        <use href="/src/images/icons.svg#icon-logo"></use>
-      </svg>
-    </a>
-    <div class="header-right">
-      <nav class="header-nav">
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link current-link link" href="Home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="About">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="Service">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="Menu">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="Contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- <div class="btn-wrapper"> -->
-      <button class="btn header-btn" type="button">Order Now</button>
-      <!-- </div> -->
-    </div>
+<header class="header section-header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="./index.html" class="logo-link link"
+        ><span class="logo-color">Web</span>Studio</a
+      >
+      <ul class="nav-list list hidden">
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-link link current">Studio</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#contact" class="nav-link link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
-    <button class="menu-btn" type="button">
-      <img class="menu-icon" src="/src/images/burger.svg" alt="burger icon" />
-      <div class="menu-mobile">
-        <button class="mobile-close-btn" type="button">
-          <img
-            class="mobile-close-icon"
-            src="/src/images/close.svg"
-            alt="closeicon"
-          />
-        </button>
-        <ul class="mobile-nav-list list">
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link current-link link" href="Home">Home</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link link" href="About">About</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link link" href="Service">Service</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link link" href="Menu">Menu</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link link" href="Contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <address class="contact">
+      <ul class="contact-list list hidden">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-link link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+11(000)1111111" class="contact-link link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button
+      class="mobile-menu-burger js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="menu-burger-icon" width="32" height="22">
+        <use href="./images/icons.svg#icon-hamburger"></use>
+      </svg>
     </button>
   </div>
 </header>

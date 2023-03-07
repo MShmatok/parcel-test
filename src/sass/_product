@@ -1,0 +1,21 @@
+.section-product {
+  padding-bottom: 120px;
+  display: none;
+}
+.product-title,
+.customers-title,
+.team-title {
+  margin: 0 auto 72px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 1200px) {
+  .section-product {
+    display: block;
+  }
+}
